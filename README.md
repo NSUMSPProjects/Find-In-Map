@@ -15,3 +15,10 @@
 * You can just copy the address to your clipboard and use the clipboard module
 * Or you can pass the address as a command line argument while running the
   program.
+
+  ```bash
+  cd source_find_map
+  python3 find_in_map.py <address>
+  # you can use punctuation marks in the address, it's safe
+  # and won't blow up your computer or this program
+  ```
